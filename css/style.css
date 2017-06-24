@@ -1,0 +1,119 @@
+h1 {
+      font-size: 32px;
+      text-align:left;
+      font-family:Castellar;
+    }
+p {
+    font-size: 16px;
+    font-family: Lucida Calligraphy;
+    text-indent:2em;
+  }
+p1 {font-size: 16px;
+    font-family: times new roman;
+    }
+p3 {font-size: 8px;
+    text-align:right;
+    font-family: times new roman}
+
+h2 {
+    font-size: 48px;
+    text-align:center;
+    font-family: Cooper Black;
+    color: #000000;
+    font-weight: bolder;
+   }
+
+   
+#navigation ul {
+   list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+     
+
+}
+
+#navigation li {
+  float: left;
+ 
+}
+
+#navigation li a {
+   display: block;
+    color: #3c3c3c;
+    text-align: center;
+    font-size: 24px;
+     font-weight: bold;
+    font-family: Arial;
+    border-bottom: solid #80ffff;
+    border-top: none;
+    padding: 12px 110px;
+    text-decoration: none;
+}
+
+#navigation a:hover:not(.active) {
+  background-color: #00caca)
+; 
+}
+.active {
+  background-color:#00caca;
+}
+
+
+#wrap {
+      width: 1000px;
+      margin: 0 auto;
+      background-color:lavender;
+ }
+#banner {
+    height:200px;
+    background-image: url("../image/DHP.png");
+    background-size: 1000px 200px;
+}
+#footer{
+   color:black;
+   text-align:right;
+}
+.center{
+      margin:auto;
+      width:60%;
+      border:3.5px solid #B8B8B8;
+      padding:15px;
+}
+.center2{
+      margin:auto;
+      width:100%;
+      border:3.5px solid #B8B8B8;
+      padding:8px;
+}
+#content{
+      color:#262626;
+      padding-left:80px;
+      padding-right:80px;
+      font-family: sans-serif;
+}
+.cent{
+      text-align: center;
+}
+table {
+        width: 1000px;
+        alignment-baseline:  center;}
+      th, td {
+        padding: 7px 10px 10px 10px;}
+      th {
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-size: 90%;
+        border-bottom: 1px solid #B8B8B8;
+        text-align: center;
+        }
+      
+      th {
+           text-align: left;
+          }
+      th {
+          height: 50px;
+         }
+tr:hover {background-color: #B8B8B8;}
+
+tr:nth-child(odd) {background-color:#b8b8dc;}
